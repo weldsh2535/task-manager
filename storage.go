@@ -1,23 +1,3 @@
-// package main
-
-// import (
-// 	"gorm.io/driver/mysql"
-// 	"gorm.io/gorm"
-// )
-
-// var DB *gorm.DB
-
-// // InitDB opens a connection to the database using the provided DSN
-// // and returns the gorm DB handle (and any error) so callers can use it.
-// func InitDB(dsn string) (*gorm.DB, error) {
-// 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
-// 	if err != nil {
-// 		return nil, err
-// 	}
-// 	DB = db
-// 	return db, nil
-// }
-
 package main
 
 import (
